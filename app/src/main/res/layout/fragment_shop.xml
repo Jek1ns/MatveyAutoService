@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Каталог запчастей"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="16dp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Моторное масло 5W-40 (4л)\nЦена: 3 500 руб."
+                android:textSize="16sp"/>
+            <Button android:id="@+id/btnBuy1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Купить"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="16dp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Тормозные колодки передние\nЦена: 2 100 руб."
+                android:textSize="16sp"/>
+            <Button android:id="@+id/btnBuy2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Купить"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="16dp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Фильтр масляный\nЦена: 650 руб."
+                android:textSize="16sp"/>
+            <Button android:id="@+id/btnBuy3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Купить"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="16dp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Свечи зажигания (комплект)\nЦена: 1 800 руб."
+                android:textSize="16sp"/>
+            <Button android:id="@+id/btnBuy4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Купить"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="16dp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Щётки стеклоочистителя\nЦена: 1 200 руб."
+                android:textSize="16sp"/>
+            <Button android:id="@+id/btnBuy5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Купить"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="16dp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Воздушный фильтр двигателя\nЦена: 950 руб."
+                android:textSize="16sp"/>
+            <Button android:id="@+id/btnBuy6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Купить"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="16dp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Ремень ГРМ комплект\nЦена: 4 200 руб."
+                android:textSize="16sp"/>
+            <Button android:id="@+id/btnBuy7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Купить"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="16dp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Тормозная жидкость DOT-4 (1л)\nЦена: 780 руб."
+                android:textSize="16sp"/>
+            <Button android:id="@+id/btnBuy8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Купить"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="16dp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Аккумулятор 60 Ач\nЦена: 5 600 руб."
+                android:textSize="16sp"/>
+            <Button android:id="@+id/btnBuy9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Купить"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="16dp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Антифриз G12 (5л)\nЦена: 1 450 руб."
+                android:textSize="16sp"/>
+            <Button android:id="@+id/btnBuy10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Купить"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
