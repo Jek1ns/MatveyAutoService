@@ -18,7 +18,14 @@ public class ShopFragment extends Fragment {
 
         v.findViewById(R.id.btnBuy1).setOnClickListener(buyListener);
         v.findViewById(R.id.btnBuy2).setOnClickListener(buyListener);
-
+        v.findViewById(R.id.btnBuy3).setOnClickListener(buyListener);
+        v.findViewById(R.id.btnBuy4).setOnClickListener(buyListener);
+        v.findViewById(R.id.btnBuy5).setOnClickListener(buyListener);
+        v.findViewById(R.id.btnBuy6).setOnClickListener(buyListener);
+        v.findViewById(R.id.btnBuy7).setOnClickListener(buyListener);
+        v.findViewById(R.id.btnBuy8).setOnClickListener(buyListener);
+        v.findViewById(R.id.btnBuy8).setOnClickListener(buyListener);
+        v.findViewById(R.id.btnBuy8).setOnClickListener(buyListener);
         return v;
     }
 }
